@@ -1,0 +1,93 @@
+body{
+
+}
+
+.top{
+  height: 100px;
+  background-color: #077cba;
+  //border: 1px solid red;
+}
+
+.home{
+  height: 20px;
+  weight: 20px;
+  padding: 25px;
+  border: 1px solid black;
+  position: absolute;
+  top: 3%;
+  left: 3%;
+}
+
+.logoArea{
+  height: 100%;
+  width: 8.8%;
+  position: relative;
+  left: 91.2%;
+//border: 1px solid blue;
+
+}
+
+.logoImg{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.menu{
+  //border: 1px solid blue;
+  position: absolute;
+  top: 2%;
+  left: 28%;
+}
+
+.lists{
+  //border: 1px solid blue;
+}
+
+.lists > li{
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  font-family: sans-serif;
+  font-size: 18px;
+  background-color: #0bdbdb;
+  border-radius: 5%;
+  box-shadow: 5px, 5px, 5px, 5px;
+}
+
+.lists > li:hover{
+  //font-size: 1.2em;
+  font-weight: bold;
+}
+
+.lists > li > ul:hover{
+    visibility: visible;
+  }
+
+.lists > li > ul{
+  //border: 1px solid blue;
+  visibility: visible;
+  position: absolute;
+  padding: 5px;
+  list-style-type: none;
+}
+
+.elems{
+  //border: 1px solid red;
+}
+
+.elems p{
+  font-weight: bold;
+  font-size: 15px;
+  visibility: visible;
+}
+
+.picTrainer{
+  width: 150px;
+  height: 150px;
+  //border: 1px solid black;
+}
+
+.picTrainer img{
+  max-width: 150px;
+  max-height: 150px;
+}
